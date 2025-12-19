@@ -194,9 +194,9 @@ if __name__ == '__main__':
     
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
-        print(f"\033[33m{'=' * 50}\033[0m")
-        print("\033[33m梦千秋—阿里云TTS音色管理工具\033[0m")
-        print(f"\033[33m{'=' * 50}\033[0m")
+        print("=" * 50)
+        print("阿里云TTS音色管理工具")
+        print("=" * 50)
         print("1. 创建音色并合成语音")
         print("2. 查询音色列表")
         print("3. 删除音色")
@@ -220,11 +220,11 @@ if __name__ == '__main__':
             
             try:
                 voice_id = create_voice(file_path, target_model, base_url, headers)
-                print(f"✓请保存此 voice_id: {voice_id}")
+                print(f"✓ 音色ID: {voice_id}")
                 output = tts_synthesize(voice_id, text, api_key, target_model)
                 if output:
                     print(f"✓ 语音已保存: {output}")
-                    print(f"✓ 请保存此voice_id: {voice_id}")
+                    print(f"✓ 音色ID: {voice_id}")
             except Exception as e:
                 print(f"✗ 操作失败：{str(e)}")
             
@@ -275,7 +275,7 @@ if __name__ == '__main__':
             input("按回车继续...")
             
         elif choice == "4":
-            print("感谢使用。")
+            print("退出程序")
             break
         else:
             print("✗ 无效选择，请输入1-4")
