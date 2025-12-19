@@ -1,0 +1,10 @@
+name: astrbot_plugin_yotts
+desc: 基于阿里云百炼平台声音复刻模型，上传30s音频使您的bot在聊天时使用你的音色聊天，提供对接阿里云的音色一站式创建管理脚本。
+version: v1.0.0
+author: 梦千秋
+repo: https://github.com/WangYi82909/astrbot_plugin_yotts
+
+
+
+
+

@@ -1,0 +1,27 @@
+{
+    "api_key": {
+        "type": "string",
+        "description": "阿里云DashScope API密钥",
+        "default": ""
+    },
+    "voice_id": {
+        "type": "string",
+        "description": "音色ID",
+        "default": "qwen-tts-vc-meng-voice-20251220003146335-44ba"
+    },
+    "tts_probability": {
+        "type": "int",
+        "description": "TTS回复概率(0-100)",
+        "default": 50
+    },
+    "max_length": {
+        "type": "int",
+        "description": "TTS的最大字数，超出使用文字",
+        "default": 100
+    },
+    "save_audio": {
+        "type": "bool",
+        "description": "是否保存语音文件到数据目录",
+        "default": false
+    }
+}
