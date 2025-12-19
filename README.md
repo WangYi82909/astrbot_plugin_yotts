@@ -9,7 +9,8 @@
 https://help.aliyun.com/zh/model-studio/qwen-tts-voice-cloning?spm=a2c4g.11186623.0.0.7bd58e13X9eDUj
 ```
 - 点击主页API文档，选择北京/新加坡创建key
-- cd 进入插件目录，python3 aliyun.py
+- cd 进入插件目录，python3 aliyuntts.py
 - 创建音色并保存唯一id，并在配置页上传key和id
+
 
 
